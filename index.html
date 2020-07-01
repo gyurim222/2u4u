@@ -1,0 +1,407 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title> 당신을 위한 이유식, 2UFORYOU </title>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo:wght@400;700&family=Song+Myung&display=swap" rel="stylesheet">
+
+
+<style type="text/css">
+
+*{
+
+    margin: auto;
+
+}
+
+
+
+header { margin: 10px; padding: 10px;
+        }
+
+.logo { float: left;
+        margin-left: 30px; padding: 30px; padding-left: 10px;
+    }
+
+.main {position: relative;
+        }
+
+.gotkdeh {font-family: 'Nanum+Gothic', sans-serif;
+          color: gray; font-size: 10px;
+          position: relative; left: 77%;
+         }
+
+nav ul li {
+           display:inline;
+           list-style-type: none;
+           margin-left: 20px;
+           float:left; text-align: center;
+           }
+
+.nav {
+      padding: 10px; margin: 10px; margin-left:62%;
+      }
+
+
+
+#table { text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+         width: 100%;
+}
+
+
+
+.modal-table { display:table;
+               position:relative;}
+
+.modal-cell { display:table-cell;
+              vertical-align:middle;}
+
+.box { display:block;
+       margin:0 auto;
+      }
+
+
+ figure.yap {
+             font-family: 'Nanum+Gothic', sans-serif;
+             position: relative; ;
+             overflow: hidden;
+             margin: 10px;
+             min-width: 500px;
+             max-width: 1200px;
+             max-height: 800px;
+             width: 100%;
+             color: #173430;
+             text-align: center;
+             box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+             font-size: 30px;
+            }
+
+figure.yap * {
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+              -webkit-transition: all 0.45s ease-in-out;
+              transition: all 0.45s ease-in-out;
+               }
+
+figure.yap img {
+                 max-width: 100%;
+                 position: relative;
+                 opacity: 0.9;
+                   }
+
+figure.yap figcaption {
+                         position: absolute;
+                         top: 45%;
+                         left: 7%;
+                         right: 7%;
+                         bottom: 45%;
+                         border: 1px solid gray;
+                        border-width: 1px 1px 0;
+                         }
+figure.yap .heading {
+                      overflow: hidden;
+                      -webkit-transform: translateY(50%);
+                      transform: translateY(50%);
+                      position: absolute;
+                      bottom: 0;
+                      width: 100%;
+                        }
+
+figure.yap h2 {
+                display: table;
+                margin: 0 auto;
+                padding: 0 10px;
+                position: relative;
+                text-align: center;
+                width: auto;
+                text-transform: uppercase;
+                font-weight: 400;
+                 }
+
+figure.yap h2 span {
+                     font-weight: 800;
+                    }
+
+figure.yap h2:before,
+figure.yap h2:after     {
+                          position: absolute;
+                          display: block;
+                          width: 100%;
+                          height: 1px;
+                          content: '';
+                          top: 50%;
+                           }
+
+figure.yap p {
+               top: 50%;
+               -webkit-transform: translateY(-50%);
+               transform: translateY(-50%);
+               position: absolute;
+               width: 100%;
+               padding: 0 20px;
+               margin: 0;
+               opacity: 0;
+               line-height: 1.6em;
+               font-size: 0.9em;
+                }
+
+figure.yap a {
+               left: 0;
+               right: 0;
+               top: 0;
+               bottom: 0;
+               position: absolute;
+               z-index: 1;
+                }
+
+figure.yap:hover img,
+figure.yap.hover img    {
+                          opacity: 0.25;
+                          -webkit-transform: scale(1.1);
+                          transform: scale(1.1);
+                             }
+
+
+figure.yap:hover figcaption,
+figure.yap.hover figcaption  {
+                               top: 20%;
+                               bottom: 7%;
+                                 }
+
+figure.yap:hover p,
+figure.yap.hover p  {
+                      opacity: 1;
+                      -webkit-transition-delay: 0.35s;
+                      transition-delay: 0.35s;
+                        }
+
+
+
+.footer { width: 100%;
+         position: relative;
+         padding: 50px;
+         text-align: center;
+         color: lightgrey;
+         background-color: #173430;}
+
+         .button {
+                 position: absolute; left: 45%;
+                 background-color: lightgray;
+                 border: none; border-radius:10px;
+                 color:#173430;
+                 margin: 10px; padding: 15px 0;
+                 width: 150px;
+                 text-align: center;
+                 text-decoration: none;
+                 font-size: 15px;
+                 cursor: pointer;
+                           }
+
+
+
+
+
+
+#clear {clear: both;}
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+
+
+<header>
+
+  <img src="./img/logo.png">
+
+  <nav class="nav">
+  <div>
+  <ul>
+     <li> <a href="category/nav1.html" > <img src="img/nav1.png" onmouseover="this.src='img/nav1-1.png'" onmouseout="this.src='img/nav1.png'">
+     </a> </li>
+
+     <li> <a href="category/nav2.html"><img src="img/nav2.png" onmouseover="this.src='img/nav2-1.png'" onmouseout="this.src='img/nav2.png'">
+     </a> </li>
+
+     <li> <a href="category/nav3.html"><img src="img/nav3.png"onmouseover="this.src='img/nav3-1.png'" onmouseout="this.src='img/nav3.png'" >
+     </a> </li>
+
+     <li> <a href="category/nav4.html"><img src="img/nav4.png" onmouseover="this.src='img/nav4-1.png'" onmouseout="this.src='img/nav4.png'">
+     </a> </li>
+   </ul>
+  </div>
+  </nav>
+<div class="gotkdeh">
+  *2ufouryou는 해상도 1920*1080 (125%)에 최적화되어 있습니다.
+</div>
+</header>
+
+
+
+
+
+
+
+<div class="modal-table">
+<div class="modal-cell">
+<div class="box">
+
+
+<tr>
+<div class="main">
+    <img src="img/main.png"  height="800px" >
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</div>
+</tr>
+
+<tr>
+
+  <div>
+<figure class="yap">
+  <img src="img/2.jpg" height="800px">
+  <figcaption>
+    <p> 우리 아이 첫 이유식! <br /><br />
+        소화기가 발달하는 기간입니다. <br />
+        같은 음식으로 일주일을 지속하고 <br />
+        한 숟가락 양에서부터 점차적으로 양을 늘려갑니다. <br /><br />
+        클릭하면 요리를 볼 수 있습니다.
+   </p>
+
+    <div class="heading">
+      <h2>이유식 <span> 초기 </span></h2>
+    </div>
+  </figcaption>
+  <a href="category/nav1.html"></a>
+</figure>
+</div>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</tr>
+
+<tr>
+<figure class="yap">
+  <img src="img/fish4.jpg" height="800px">
+  <figcaption>
+    <p> 점점 익숙해지는 이유식! <br /><br />
+      호흡기가 발달하는 기간입니다. <br />
+      재료를 하나씩 첨가해 이유식을 만들어봅니다.<br />
+      알레르기 반응과 아토피 악화 가능성이 있는 재료를 주의해야 합니다. <br /><br />
+      클릭하면 요리를 볼 수 있습니다.
+   </p>
+
+    <div class="heading">
+      <h2>이유식 <span> 중기 </span></h2>
+    </div>
+  </figcaption>
+  <a href="category/nav2.html"></a>
+</figure>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</tr>
+
+<tr>
+<figure class="yap">
+  <img src="img/tofu.jpg" height="800px">
+  <figcaption>
+    <p> 세상의 짠 맛을 이유식에서부터! <br /><br />
+       미약하게 간을 해도 좋습니다. 된장 등을 이용해봅시다. <br />
+      또한 어른 음식을 조금씩 섭취하기 시작할 무렵입니다.<br />
+      밍밍한 아기 이유식을 편식할 가능성이 있으니 주의하여 식단을 짜도록 합니다. <br /><br />
+      클릭하면 요리를 볼 수 있습니다.
+   </p>
+
+    <div class="heading">
+      <h2>이유식 <span> 후기 </span></h2>
+    </div>
+  </figcaption>
+  <a href="category/nav3.html"></a>
+</figure>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</tr>
+
+
+<tr>
+<figure class="yap">
+  <img src="img/meal.jpg" height="800px">
+  <figcaption>
+    <p> 밥과 반찬이 있는 이유식! <br /><br />
+        부드럽고 무른 반찬이면 대부분 섭취할 수 있습니다.<br />
+      이유식을 권장하는 시기는 생후 12개월까지이나<br />
+      고체형 식사에 제대로 익숙해지는 15개월까지는 주의하도록 합시다. <br /><br />
+      클릭하면 요리를 볼 수 있습니다.
+   </p>
+
+    <div class="heading">
+      <h2>이유식 <span> 완료기 </span></h2>
+    </div>
+  </figcaption>
+  <a href="category/nav3.html"></a>
+</figure> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</tr>
+
+</div>
+</div>
+</div>
+
+
+<a style="display:scroll;position:fixed;bottom:10px;right:10px;"href="#"> <img src="img/up.png"> </a>
+
+<footer>
+  <div class="footer" id="clear"><br>
+
+  <form name="contact">
+
+    <div> <P><h2> 연락하기 | CONTACT US </h2></P> <br /><br />
+
+    <label> 성별 | Gender </label> <br /><br />
+    <div id="gender">
+
+            <label for="male"> <input type="radio" name="gender" id="male"> 남자 | Male &nbsp;&nbsp;</label>
+            <label for="female"> <input type="radio" name="gender" id="female"> 여자 | Female &nbsp;&nbsp;</label>
+            <label for="other"> <input type="radio" name="gender" id="other"> 그 외 | Other </label>
+
+
+    <br /><br /> </div>
+
+
+        <label> 성함 | Name </label> <br /><br />
+        <input id="name" type="text"  placeholder="성함을 입력하세요 | Please enter your name" style="width:500px; height:50px;" required><br><br>
+    </div>
+
+    <div>
+        <label> 연락처 | Contact </label> <br /><br />
+        <input id="email" type="email" placeholder="연락처를 입력하세요 | Please enter your contact" style="width:500px; height:50px;" required><br><br>
+    </div>
+
+    <div>
+        <label> 문의 | Question </label>
+        <br /><br />
+        <textarea id="message" cols="100" rows="10" placeholder="문의해주세요 | Contact us" required></textarea><br><br><br>
+    <button class="button" type="submit"> 제출 | SUBMIT </button><br><br><br>
+
+
+  </form>
+
+  </div>
+</div>
+</footer>
+
+
+
+</body>
+</html>
